@@ -21,7 +21,8 @@ export default function LocationMap({
   openingHours 
 }: LocationMapProps) {
   const mapRef = useRef<HTMLDivElement>(null);
-  const mapInstance = useRef<L.Map | null>(null);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const mapInstance = useRef<any>(null);
 
   useEffect(() => {
     // Check if map is already initialized
