@@ -24,25 +24,6 @@ export default function SeafoodSelectionTable({
     shellfish: true
   });
 
-  // Stock limits for each product
-  const stockLimits = {
-    bangus: 60,
-    tilapia: 45,
-    tamban: 80,
-    galunggong: 35,
-    tahong: 100,
-    talaba: 25,
-    halaan: 70,
-    scallop: 15,
-    pusit: 40,
-    'dagat-dagat': 20,
-    pugita: 12,
-    'pusit-lumot': 55,
-    sugpo: 18,
-    hipon: 30,
-    alimango: 22,
-    alimasag: 28
-  };
 
   const toggleDropdown = (section: keyof typeof dropdownStates) => {
     setDropdownStates(prev => ({

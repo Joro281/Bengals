@@ -16,7 +16,7 @@ const AboutPage = () => {
               {/* Left Section */}
               <div className="p-6 flex flex-col items-center justify-center md:col-span-2 order-2 md:order-1">
               <p className="italic text-xs md:text-sm lg:text-base text-black leading-relaxed text-left max-w-md ">
-                At Bengals, we carry the ocean's best — freshly caught fish, shrimp, crabs, and other premium seafood — straight from General Santos City. Every catch is carefully handled, packed, and delivered to our trusted partners in Cagayan de Oro, ensuring unmatched freshness and quality. From fishing boats to your kitchen or business, we bridge the sea's bounty to those who value only the finest.
+                At Bengals, we carry the ocean&apos;s best — freshly caught fish, shrimp, crabs, and other premium seafood — straight from General Santos City. Every catch is carefully handled, packed, and delivered to our trusted partners in Cagayan de Oro, ensuring unmatched freshness and quality. From fishing boats to your kitchen or business, we bridge the sea&apos;s bounty to those who value only the finest.
               </p>
               <div className="flex justify-end w-full">
                 <img 

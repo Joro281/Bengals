@@ -92,7 +92,7 @@ const OrderForm = () => {
                     ONLINE ORDERING <span style={{color: '#741714'}}>COMING SOON</span>
                   </h1>
                   <p className="font-special-elite font-light text-xs md:text-sm lg:text-base text-black leading-relaxed">
-                    We're putting the finishing touches on our online ordering experience. In the meantime, feel free to reach us by phone or visit our market locations—fresh catch awaits.
+                    We&apos;re putting the finishing touches on our online ordering experience. In the meantime, feel free to reach us by phone or visit our market locations—fresh catch awaits.
                   </p>
                 </div>
                 {/* Right: Image */}

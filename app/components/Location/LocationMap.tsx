@@ -21,7 +21,7 @@ export default function LocationMap({
   openingHours 
 }: LocationMapProps) {
   const mapRef = useRef<HTMLDivElement>(null);
-  const mapInstance = useRef<any>(null);
+  const mapInstance = useRef<L.Map | null>(null);
 
   useEffect(() => {
     // Check if map is already initialized
@@ -44,7 +44,7 @@ export default function LocationMap({
     script.crossOrigin = '';
     
     script.onload = () => {
-      // @ts-ignore - Leaflet is loaded globally
+      // @ts-expect-error - Leaflet is loaded globally
       const L = window.L;
       
       // Custom map style inspired by light green pastel styling
