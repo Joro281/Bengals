@@ -1,4 +1,5 @@
 import Footer from '../components/Footer';
+import Image from 'next/image';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -19,9 +20,11 @@ const AboutPage = () => {
                 At Bengals, we carry the ocean&apos;s best — freshly caught fish, shrimp, crabs, and other premium seafood — straight from General Santos City. Every catch is carefully handled, packed, and delivered to our trusted partners in Cagayan de Oro, ensuring unmatched freshness and quality. From fishing boats to your kitchen or business, we bridge the sea&apos;s bounty to those who value only the finest.
               </p>
               <div className="flex justify-end w-full">
-                <img 
+                <Image 
                   src="/images/about/stamp.png" 
                   alt="Bengals Stamp" 
+                  width={96}
+                  height={96}
                   className="max-w-24 md:max-w-32 lg:max-w-36 h-auto"
                 />
               </div>
