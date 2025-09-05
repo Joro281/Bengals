@@ -3,7 +3,7 @@ import Image from 'next/image';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'About BENGALS - Fish Carrier',
+  title: 'BENGALS',
   description: 'Learn about BENGALS Fish Carrier - your trusted seafood supplier since 2011. Discover our commitment to quality, freshness, and sustainable fishing practices.',
 };
 

@@ -3,7 +3,7 @@ import LocationMap from '../components/Location/LocationMap';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Contact BENGALS - Fish Carrier',
+  title: 'BENGALS',
   description: 'Get in touch with BENGALS Fish Carrier. Find our location, contact information, and business hours. We deliver fresh seafood since 2011.',
 };
 
